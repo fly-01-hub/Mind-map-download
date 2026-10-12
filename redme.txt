@@ -10,12 +10,12 @@ ResearchMind 枝间是一款本地优先的个人思维导图、文档大纲和 
 
 ## 下载安装
 
-当前版本：**1.7.6**，Windows 64 位（x64）。
+当前版本：**1.7.7**，Windows 64 位（x64）。
 
-- [直接下载 ResearchMind-Setup-1.7.6-x64.exe](https://github.com/fly-01-hub/Mind-map-download/releases/download/v1.7.6/ResearchMind-Setup-1.7.6-x64.exe)
+- [直接下载 ResearchMind-Setup-1.7.7-x64.exe](https://github.com/fly-01-hub/Mind-map-download/releases/download/v1.7.7/ResearchMind-Setup-1.7.7-x64.exe)
 - [打开最新版本下载页](https://github.com/fly-01-hub/Mind-map-download/releases/latest)
 
-1. 点击上面的 EXE 下载链接。也可以打开下载页，展开 **Assets**，点击 `ResearchMind-Setup-1.7.6-x64.exe`。
+1. 点击上面的 EXE 下载链接。也可以打开下载页，展开 **Assets**，点击 `ResearchMind-Setup-1.7.7-x64.exe`。
 2. 如果已使用旧版，先在旧版中创建完整备份，再关闭旧版。
 3. 双击下载的 EXE，按照安装向导选择安装位置并完成安装。
 4. 从桌面或 Windows 开始菜单打开 **ResearchMind 枝间**。它是本地桌面程序，不需要运行网页服务，也不需要保持浏览器打开。
@@ -24,16 +24,16 @@ ResearchMind 枝间是一款本地优先的个人思维导图、文档大纲和 
 
 GitHub 自动附带的 `Source code (zip)` / `Source code (tar.gz)` 以及 `Code → Download ZIP`，仅包含本下载仓库的说明文档，不是程序源码，也不是安装包。请下载 `.exe`。
 
-安装包大小：137,166,825 字节。SHA-256：
+安装包大小：137,166,593 字节。SHA-256：
 
 ```text
-6960D2B7EC1F832FA44EFAF92EBC23AB113A995DFC6C0D7E365D25D5AFBCDB9E
+DDCD18E7387B6DE765047302F916CC985A1D4A0F742EDCC3F1A66FF4F594138F
 ```
 
 如需核对，在下载文件所在文件夹打开 PowerShell，执行：
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath '.\ResearchMind-Setup-1.7.6-x64.exe'
+Get-FileHash -Algorithm SHA256 -LiteralPath '.\ResearchMind-Setup-1.7.7-x64.exe'
 ```
 
 ## 五分钟上手
