@@ -2,16 +2,20 @@
 
 ResearchMind 枝间是一款本地优先的个人思维导图、文档大纲和 PDF 阅读工具，适合整理想法、写作提纲、学习笔记及研究资料。无需注册账号、搭建服务器或配置付费 API；安装后可离线使用。
 
-本仓库是**公开下载页，不是源码仓库**。仅提供使用说明及 Windows EXE 安装包，不发布项目源码、开发提交历史或任何人的知识库。开发源码在独立的私有仓库维护。
+本仓库是**公开下载页，不是源码仓库**。提供使用说明、Windows EXE 安装包和网页版构建资源（gh-pages 分支），不发布项目源码、开发提交历史或任何人的知识库。开发源码在独立的私有仓库维护。
+
+## 在线使用（免费）
+
+[打开网页版](https://fly-01-hub.github.io/Mind-map-download/)。无需安装或启动本机服务器，支持浏览器中的 PWA 安装；首次在线加载后可离线使用已缓存功能。资料保存在各自浏览器，浏览器清理数据可能导致资料丢失，请定期导出完整备份。网页版与桌面版本的资料不会自动同步。
 
 ## 下载安装
 
-当前版本：**1.7.5**，Windows 64 位（x64）。
+当前版本：**1.7.6**，Windows 64 位（x64）。
 
-- [直接下载 ResearchMind-Setup-1.7.5-x64.exe](https://github.com/fly-01-hub/Mind-map-download/releases/download/v1.7.5/ResearchMind-Setup-1.7.5-x64.exe)
+- [直接下载 ResearchMind-Setup-1.7.6-x64.exe](https://github.com/fly-01-hub/Mind-map-download/releases/download/v1.7.6/ResearchMind-Setup-1.7.6-x64.exe)
 - [打开最新版本下载页](https://github.com/fly-01-hub/Mind-map-download/releases/latest)
 
-1. 点击上面的 EXE 下载链接。也可以打开下载页，展开 **Assets**，点击 `ResearchMind-Setup-1.7.5-x64.exe`。
+1. 点击上面的 EXE 下载链接。也可以打开下载页，展开 **Assets**，点击 `ResearchMind-Setup-1.7.6-x64.exe`。
 2. 如果已使用旧版，先在旧版中创建完整备份，再关闭旧版。
 3. 双击下载的 EXE，按照安装向导选择安装位置并完成安装。
 4. 从桌面或 Windows 开始菜单打开 **ResearchMind 枝间**。它是本地桌面程序，不需要运行网页服务，也不需要保持浏览器打开。
@@ -20,16 +24,16 @@ ResearchMind 枝间是一款本地优先的个人思维导图、文档大纲和 
 
 GitHub 自动附带的 `Source code (zip)` / `Source code (tar.gz)` 以及 `Code → Download ZIP`，仅包含本下载仓库的说明文档，不是程序源码，也不是安装包。请下载 `.exe`。
 
-安装包大小：135,717,563 字节。SHA-256：
+安装包大小：137,166,825 字节。SHA-256：
 
 ```text
-24A51A9AF9FEE03C89F5790A174FAC30D9918A5E0E3013E33A6E22BB85ED67E1
+6960D2B7EC1F832FA44EFAF92EBC23AB113A995DFC6C0D7E365D25D5AFBCDB9E
 ```
 
 如需核对，在下载文件所在文件夹打开 PowerShell，执行：
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath '.\ResearchMind-Setup-1.7.5-x64.exe'
+Get-FileHash -Algorithm SHA256 -LiteralPath '.\ResearchMind-Setup-1.7.6-x64.exe'
 ```
 
 ## 五分钟上手
@@ -51,7 +55,7 @@ Get-FileHash -Algorithm SHA256 -LiteralPath '.\ResearchMind-Setup-1.7.5-x64.exe'
 - `Shift + Enter`：进入或退出主题描述区。
 - `Ctrl + Z`：撤销；`Ctrl + Y`：重做。
 
-在思维导图中双击节点编辑文字，选中节点后按 `Tab` 添加下级，按 `Enter` 提交编辑并添加同级。右键节点可查看编辑和排序操作。中键拖动，或按住空格再用鼠标左键拖动，可平移画布。
+在思维导图中双击普通节点编辑文字；PDF 文献节点单击选中、双击打开分栏。选中节点后显示加减按钮，按 `Tab` 添加下级，按 `Enter` 提交编辑并添加同级。右键节点可查看编辑和排序操作。中键拖动，或按住空格再用鼠标左键拖动，可平移画布。
 
 选中文字可设置局部格式和颜色；`Ctrl + /` 打开操作指南与快捷键。输入法正在选词时，`Enter` 优先确认候选文字。
 
@@ -97,8 +101,8 @@ Get-FileHash -Algorithm SHA256 -LiteralPath '.\ResearchMind-Setup-1.7.5-x64.exe'
 
 ## 发行与隐私边界
 
-公开仓库的文件和提交历史只有说明文档；Release 的人工上传附件只有 EXE，不包含开发者的导图、PDF、数据库、备份或真实资料截图。新用户不会得到他人的知识库。
+公开仓库的 main 分支提供说明文档，gh-pages 分支提供网页构建资源；均不包含原始开发工程或私有源码历史；Release 的人工上传附件只有 EXE，不包含开发者的导图、PDF、数据库、备份或真实资料截图。新用户不会得到他人的知识库。
 
-“不在仓库发布源码”不意味着程序无法被逆向分析。EXE 必须包含运行所需的程序资源，可能被提取；本仓库不承诺防逆向或绝对源码保密。后续公开更新仍仅上传经核验的安装包和说明，不上传私有源码仓库的分支、标签或历史。
+“不在仓库发布源码”不意味着程序无法被逆向分析。EXE 必须包含运行所需的程序资源，可能被提取；本仓库不承诺防逆向或绝对源码保密。后续公开更新仅上传经核验的安装包、说明及网页构建资源，不上传私有源码仓库的分支、标签或历史。
 
 反馈可使用本仓库的 [Issues](https://github.com/fly-01-hub/Mind-map-download/issues)。请只提供脱敏后的问题描述，不提交完整个人备份、论文或数据库。
