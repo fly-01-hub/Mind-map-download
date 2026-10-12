@@ -1,8 +1,33 @@
-# ResearchMind 枝间 · Windows 下载与使用指南
+# ResearchMind 枝间 · 免费 PDF 阅读与思维导图
 
-ResearchMind 枝间是一款本地优先的个人思维导图、文档大纲和 PDF 阅读工具，适合整理想法、写作提纲、学习笔记及研究资料。无需注册账号、搭建服务器或配置付费 API；安装后可离线使用。
+把文献、批注和阅读笔记放进同一张思维导图。无需注册，支持网页版与 Windows 桌面版，资料保存在当前设备。
 
-本仓库是**公开下载页，不是源码仓库**。提供使用说明、Windows EXE 安装包和网页版构建资源（gh-pages 分支），不发布项目源码、开发提交历史或任何人的知识库。开发源码在独立的私有仓库维护。
+**[立即在线体验](https://fly-01-hub.github.io/Mind-map-download/)** · **[下载 Windows 安装包](https://github.com/fly-01-hub/Mind-map-download/releases/latest)** · [反馈问题](https://github.com/fly-01-hub/Mind-map-download/issues)
+
+![ResearchMind 枝间：PDF 阅读与思维导图分栏](assets/pdf-reading.png)
+
+## 30 秒看看怎样使用
+
+![拖入 PDF、双击分栏、高亮生成节点的真实演示](assets/demo.gif)
+
+[播放或下载 MP4 演示](https://raw.githubusercontent.com/fly-01-hub/Mind-map-download/main/assets/demo.mp4) · [查看纯导图界面](assets/mindmap.png) · [分享介绍文案](promotion/share-copy.txt)
+
+演示录制于实际应用，使用专门编写的虚构 PDF 和示例导图，不含个人资料。视频中的步骤字幕与文件拖动提示用于说明操作。
+
+## 适合哪些事情
+
+| 你的需求 | 可以怎样使用 |
+| --- | --- |
+| 阅读文献时反复切换窗口 | 把 PDF 拖到节点，双击文献节点，在同一页阅读原文和查看导图 |
+| 想把关键句整理成结构 | 在分栏阅读中选中文字并高亮，生成带来源关联的文献子节点 |
+| 整理学习笔记或写作提纲 | 在大纲中快速输入，在导图中查看结构，两种视图共用内容 |
+| 希望资料保存在自己设备 | 内容保存在当前浏览器或桌面程序，支持完整备份迁移 |
+
+首次打开为空白知识库；网页版首次在线加载缓存后支持离线使用。不同设备、浏览器和桌面版之间不自动同步，请定期导出完整备份。
+
+欢迎试用并通过 Issues 提出建议。如果它对你有帮助，可以 Star 收藏或分享给有同样需求的人。
+
+本项目免费分发，源码保持私有。本仓库提供使用说明、演示素材、Windows 安装包入口，以及 gh-pages 分支中的网页运行资源。
 
 ## 在线使用（免费）
 
