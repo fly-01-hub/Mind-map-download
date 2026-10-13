@@ -35,12 +35,12 @@
 
 ## 下载安装
 
-当前版本：**1.7.7**，Windows 64 位（x64）。
+当前版本：**1.7.8**，Windows 64 位（x64）。
 
-- [直接下载 ResearchMind-Setup-1.7.7-x64.exe](https://github.com/fly-01-hub/Mind-map-download/releases/download/v1.7.7/ResearchMind-Setup-1.7.7-x64.exe)
+- [直接下载 ResearchMind-Setup-1.7.8-x64.exe](https://github.com/fly-01-hub/Mind-map-download/releases/download/v1.7.8/ResearchMind-Setup-1.7.8-x64.exe)
 - [打开最新版本下载页](https://github.com/fly-01-hub/Mind-map-download/releases/latest)
 
-1. 点击上面的 EXE 下载链接。也可以打开下载页，展开 **Assets**，点击 `ResearchMind-Setup-1.7.7-x64.exe`。
+1. 点击上面的 EXE 下载链接。也可以打开下载页，展开 **Assets**，点击 `ResearchMind-Setup-1.7.8-x64.exe`。
 2. 如果已使用旧版，先在旧版中创建完整备份，再关闭旧版。
 3. 双击下载的 EXE，按照安装向导选择安装位置并完成安装。
 4. 从桌面或 Windows 开始菜单打开 **ResearchMind 枝间**。它是本地桌面程序，不需要运行网页服务，也不需要保持浏览器打开。
@@ -49,16 +49,16 @@
 
 GitHub 自动附带的 `Source code (zip)` / `Source code (tar.gz)` 以及 `Code → Download ZIP`，包含本下载仓库的说明文档和虚构示例演示素材，不是程序源码，也不是安装包。请下载 `.exe`。
 
-安装包大小：137,166,593 字节。SHA-256：
+安装包大小：137,168,214 字节。SHA-256：
 
 ```text
-DDCD18E7387B6DE765047302F916CC985A1D4A0F742EDCC3F1A66FF4F594138F
+99DB22E3456186B48332277948A7EEB7E76C5A45D792C9DA723FC4B0245DE4AA
 ```
 
 如需核对，在下载文件所在文件夹打开 PowerShell，执行：
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath '.\ResearchMind-Setup-1.7.7-x64.exe'
+Get-FileHash -Algorithm SHA256 -LiteralPath '.\ResearchMind-Setup-1.7.8-x64.exe'
 ```
 
 ## 五分钟上手
@@ -90,6 +90,8 @@ Get-FileHash -Algorithm SHA256 -LiteralPath '.\ResearchMind-Setup-1.7.7-x64.exe'
 - 在主题中输入 `[[文档名称]]`，双击高亮名称可打开或新建关联文档。
 - 点击首页 **“论文与批注”** 管理论文。将 PDF 拖到导图节点，可关联论文并阅读、批注；图片和其他文件也可作为节点资料保存在本地。
 - 根据文档中的导入、导出入口交换 Markdown、OPML 等文件；这些交换格式不保证所有字段无损，不能替代完整备份。
+
+PDF 支持上下连续滚动阅读，独立阅读与导图分栏均可使用。顶部页码跟随滚动，仍可输入页码或用上一页/下一页跳转；关闭后恢复页码和页内位置。长文献只渲染视口附近的页面。
 
 ## 保存、完整备份与恢复
 
