@@ -1,6 +1,6 @@
 # ResearchMind 枝间 · 免费 PDF 阅读与思维导图
 
-把文献、批注和阅读笔记放进同一张思维导图。无需注册，支持网页版与 Windows 桌面版，资料保存在当前设备。
+把文献、批注和阅读笔记放进同一张思维导图。无需注册，支持网页版、Windows 桌面版和安卓平板版，资料保存在当前设备。
 
 **[立即在线体验](https://fly-01-hub.github.io/Mind-map-download/)** · **[下载 Windows 安装包](https://github.com/fly-01-hub/Mind-map-download/releases/latest)** · [反馈问题](https://github.com/fly-01-hub/Mind-map-download/issues)
 
@@ -60,6 +60,16 @@ GitHub 自动附带的 `Source code (zip)` / `Source code (tar.gz)` 以及 `Code
 ```powershell
 Get-FileHash -Algorithm SHA256 -LiteralPath '.\ResearchMind-Setup-1.7.8-x64.exe'
 ```
+
+## 安卓安装包（1.7.8）
+
+[下载 ResearchMind-1.7.8-android.apk](https://github.com/fly-01-hub/Mind-map-download/releases/download/v1.7.8/ResearchMind-1.7.8-android.apk)
+
+Android 9 及以上，优先适配平板，建议横屏。包名 com.fly01hub.researchmind；版本 1.7.8，versionCode 10708，沿用本机旧版签名。包含 PDF 连续滚动阅读等最新功能。
+
+覆盖升级前先导出完整 .researchmind 备份，直接覆盖安装，不先卸载旧版。网页版、Windows 与安卓的资料不会自动同步，可用完整备份迁移。已通过签名、资源比对及 9 项触屏模拟/生产资源检查；没有连接真机做安装或系统文件选择器验收。
+
+APK 大小：4,671,633 字节。SHA-256：C2ACE3581DCF9D7187309C295BE20BCB1EB1919EDB72ECECE62CEAC899F5849C
 
 ## 五分钟上手
 
