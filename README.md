@@ -35,12 +35,12 @@
 
 ## 下载安装
 
-当前版本：**1.7.8**，Windows 64 位（x64）。
+当前版本：**1.7.9**，Windows 64 位（x64）。
 
-- [直接下载 ResearchMind-Setup-1.7.8-x64.exe](https://github.com/fly-01-hub/Mind-map-download/releases/download/v1.7.8/ResearchMind-Setup-1.7.8-x64.exe)
+- [直接下载 ResearchMind-Setup-1.7.9-x64.exe](https://github.com/fly-01-hub/Mind-map-download/releases/download/v1.7.9/ResearchMind-Setup-1.7.9-x64.exe)
 - [打开最新版本下载页](https://github.com/fly-01-hub/Mind-map-download/releases/latest)
 
-1. 点击上面的 EXE 下载链接。也可以打开下载页，展开 **Assets**，点击 `ResearchMind-Setup-1.7.8-x64.exe`。
+1. 点击上面的 EXE 下载链接。也可以打开下载页，展开 **Assets**，点击 `ResearchMind-Setup-1.7.9-x64.exe`。
 2. 如果已使用旧版，先在旧版中创建完整备份，再关闭旧版。
 3. 双击下载的 EXE，按照安装向导选择安装位置并完成安装。
 4. 从桌面或 Windows 开始菜单打开 **ResearchMind 枝间**。它是本地桌面程序，不需要运行网页服务，也不需要保持浏览器打开。
@@ -49,27 +49,27 @@
 
 GitHub 自动附带的 `Source code (zip)` / `Source code (tar.gz)` 以及 `Code → Download ZIP`，包含本下载仓库的说明文档和虚构示例演示素材，不是程序源码，也不是安装包。请下载 `.exe`。
 
-安装包大小：137,168,214 字节。SHA-256：
+安装包大小：137,169,559 字节。SHA-256：
 
 ```text
-99DB22E3456186B48332277948A7EEB7E76C5A45D792C9DA723FC4B0245DE4AA
+373B6345A15533D48744EF05B1D05A9F2CD0EED203D0271AE6261719A7A0AAEC
 ```
 
 如需核对，在下载文件所在文件夹打开 PowerShell，执行：
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath '.\ResearchMind-Setup-1.7.8-x64.exe'
+Get-FileHash -Algorithm SHA256 -LiteralPath '.\ResearchMind-Setup-1.7.9-x64.exe'
 ```
 
-## 安卓安装包（1.7.8）
+## 安卓安装包（1.7.9）
 
-[下载 ResearchMind-1.7.8-android.apk](https://github.com/fly-01-hub/Mind-map-download/releases/download/v1.7.8/ResearchMind-1.7.8-android.apk)
+[下载 ResearchMind-1.7.9-android.apk](https://github.com/fly-01-hub/Mind-map-download/releases/download/v1.7.9/ResearchMind-1.7.9-android.apk)
 
-Android 9 及以上，优先适配平板，建议横屏。包名 com.fly01hub.researchmind；版本 1.7.8，versionCode 10708，沿用本机旧版签名。包含 PDF 连续滚动阅读等最新功能。
+Android 9 及以上，建议平板横屏使用。本版优化大型导图编辑、撤销记录与自动保存，保留 PDF 连续阅读。
 
-覆盖升级前先导出完整 .researchmind 备份，直接覆盖安装，不先卸载旧版。网页版、Windows 与安卓的资料不会自动同步，可用完整备份迁移。已通过签名、资源比对及 9 项触屏模拟/生产资源检查；没有连接真机做安装或系统文件选择器验收。
+升级前创建完整 .researchmind 备份，然后覆盖安装；不要先卸载已有应用。沿用原包名与签名，资料不会自动跨设备同步。触屏模拟检查不替代真机验收。
 
-APK 大小：4,671,633 字节。SHA-256：C2ACE3581DCF9D7187309C295BE20BCB1EB1919EDB72ECECE62CEAC899F5849C
+APK 大小：4,673,193 字节。SHA-256：C9D4A79F7FD0E93F9AE3D2023FC847DC5DC80C53E3092F242FE12D7B9F6EFACE
 
 ## 五分钟上手
 
@@ -102,6 +102,10 @@ APK 大小：4,671,633 字节。SHA-256：C2ACE3581DCF9D7187309C295BE20BCB1EB191
 - 根据文档中的导入、导出入口交换 Markdown、OPML 等文件；这些交换格式不保证所有字段无损，不能替代完整备份。
 
 PDF 支持上下连续滚动阅读，独立阅读与导图分栏均可使用。顶部页码跟随滚动，仍可输入页码或用上一页/下一页跳转；关闭后恢复页码和页内位置。长文献只渲染视口附近的页面。
+
+## 大型导图性能
+
+大型导图优化：常见新增、改字与折叠按变化更新，减少重复渲染；撤销记录共享未改变的分支；自动保存仅写入发生变化的文档。复杂结构编辑保留完整刷新。实际速度受设备、可见节点和图片数量影响。
 
 ## 保存、完整备份与恢复
 
