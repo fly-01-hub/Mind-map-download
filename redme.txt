@@ -35,12 +35,12 @@
 
 ## 下载安装
 
-当前版本：**1.7.10**，Windows 64 位（x64）。
+当前版本：**1.7.11**，Windows 64 位（x64）。
 
-- [直接下载 ResearchMind-Setup-1.7.10-x64.exe](https://github.com/fly-01-hub/Mind-map-download/releases/download/v1.7.10/ResearchMind-Setup-1.7.10-x64.exe)
+- [直接下载 ResearchMind-Setup-1.7.11-x64.exe](https://github.com/fly-01-hub/Mind-map-download/releases/download/v1.7.11/ResearchMind-Setup-1.7.11-x64.exe)
 - [打开最新版本下载页](https://github.com/fly-01-hub/Mind-map-download/releases/latest)
 
-1. 点击上面的 EXE 下载链接。也可以打开下载页，展开 **Assets**，点击 `ResearchMind-Setup-1.7.10-x64.exe`。
+1. 点击上面的 EXE 下载链接。也可以打开下载页，展开 **Assets**，点击 `ResearchMind-Setup-1.7.11-x64.exe`。
 2. 如果已使用旧版，先在旧版中创建完整备份，再关闭旧版。
 3. 双击下载的 EXE，按照安装向导选择安装位置并完成安装。
 4. 从桌面或 Windows 开始菜单打开 **ResearchMind 枝间**。它是本地桌面程序，不需要运行网页服务，也不需要保持浏览器打开。
@@ -49,27 +49,27 @@
 
 GitHub 自动附带的 `Source code (zip)` / `Source code (tar.gz)` 以及 `Code → Download ZIP`，包含本下载仓库的说明文档和虚构示例演示素材，不是程序源码，也不是安装包。请下载 `.exe`。
 
-安装包大小：137,174,594 字节。SHA-256：
+安装包大小：137,176,791 字节。SHA-256：
 
 ```text
-569113F0C27DEA85167D42C9CC42AD7175F17DF7A59F022D73C02989AD4CA6EC
+B786360D380196DD15659359FEF44CDB0E25AC196CBF6895065723C30BB6C48D
 ```
 
 如需核对，在下载文件所在文件夹打开 PowerShell，执行：
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath '.\ResearchMind-Setup-1.7.10-x64.exe'
+Get-FileHash -Algorithm SHA256 -LiteralPath '.\ResearchMind-Setup-1.7.11-x64.exe'
 ```
 
-## 安卓安装包（1.7.10）
+## 安卓安装包（1.7.11）
 
-[下载 ResearchMind-1.7.10-android.apk](https://github.com/fly-01-hub/Mind-map-download/releases/download/v1.7.10/ResearchMind-1.7.10-android.apk)
+[下载 ResearchMind-1.7.11-android.apk](https://github.com/fly-01-hub/Mind-map-download/releases/download/v1.7.11/ResearchMind-1.7.11-android.apk)
 
 Android 9 及以上，建议平板横屏使用。本版加强草稿恢复、保存失败重试和恢复前安全副本，保留大型导图优化与 PDF 连续阅读。
 
 升级前创建完整 .researchmind 备份，然后覆盖安装；不要先卸载已有应用。沿用原包名与签名，资料不会自动跨设备同步。触屏模拟检查不替代真机验收。
 
-APK 大小：4,680,966 字节。SHA-256：A58E4605FAE6AA765EF0636EFE77E2EC25FD80A71488AAEB3E060CC4AA49C55D
+APK 大小：4,682,358 字节。SHA-256：C2D38C3C781BDADF76C848EF9F30CA589132B1143AAB8BED739E43F218960737
 
 ## 五分钟上手
 
@@ -109,7 +109,7 @@ PDF 支持上下连续滚动阅读，独立阅读与导图分栏均可使用。�
 
 ## 数据保护
 
-本地资料保护：节点、大纲和详情笔记保留未提交草稿恢复记录；关闭、切后台和网页更新前尝试提交保存；写入失败自动重试并提供导出。读取失败停止编辑，不将原库当成空白覆盖。多窗口协调写入并检测旧版本覆盖；恢复备份前自动保留最近两份本机安全副本。浏览器清理、卸载或设备损坏仍需独立的完整备份防护，不能保证零丢失。
+本地资料保护：节点、大纲和详情笔记分别保留未提交草稿，切换节点先提交原笔记；关闭、切后台和网页更新前尝试保存，失败自动重试并提供资料与恢复记录导出。读取失败停止编辑，不将原库当成空白覆盖。多窗口协调写入并核对实际内容，冲突保留恢复副本；批量附件部分失败仍保留成功文件。新完整备份加入 SHA-256 完整性校验，兼容旧 v1 备份，恢复前保留最近两份本机安全副本。浏览器清理、卸载或设备损坏仍需独立的完整备份防护，不能保证零丢失。
 
 ## 保存、完整备份与恢复
 
